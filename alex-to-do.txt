@@ -1,3 +1,4 @@
+$Author$
 This is Alex's current mental stack
 
 
