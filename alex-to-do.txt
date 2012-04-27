@@ -10,7 +10,7 @@ Todo:
 - discriminator lamp installer vs all-in-one
 - all-in-one for Linux?
 
-Todo:
+Done:
 x save, save as, load and edit diagram
 x manage users
 x gave up to VERSION, WEBADRESS
