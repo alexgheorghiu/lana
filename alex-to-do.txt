@@ -4,11 +4,14 @@ This is Alex's current mental stack
 Todo:
 -----
 
-= (done, review and testing needed) license back
+- if serial is wrong the message is still ok (it should be an error message)
 - discriminator lamp installer vs all-in-one
 - all-in-one for Linux?
+- on installer check support for HTML5 of browser
+- remove last selection when render
 
 Todo:
++ (done, review and testing needed) license back
 + add a readme inside zip
 + protect installer too (only steps after step2)
 + save, save as, load and edit diagram
