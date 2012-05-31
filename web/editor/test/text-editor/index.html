@@ -1,0 +1,45 @@
+<!-doctype html>
+<html>
+	<head>
+		<script type="text/javascript">
+			function showEditor(){
+				//alert('ok');
+				
+				var editor = document.getElementById('editor');
+				if(!editor){
+					editor = document.createElement('div');
+				}
+				
+				editor.setAttribute('id', 'editor');
+				editor.innerHTML = 'editor editor editor';
+				document.body.appendChild(editor);
+			}
+			
+			function init(){
+				//alert('Loaded');
+				
+				var quilt = document.getElementById('quilt');
+				quilt.addEventListener('click', showEditor);
+			}
+			
+			
+			window.addEventListener('load', init);
+		</script>
+		<style type="text/css">
+			#quilt {
+				border: 1px solid gray;
+			}
+			
+			#editor {
+				position: absolute;
+				top: 100px;
+				left: 100px;
+				width: 200px;
+				
+			}
+		</style>
+	</head>
+	<body>
+		<canvas id="quilt" width="400" height="400"></canvas>
+	</body>
+</html>
