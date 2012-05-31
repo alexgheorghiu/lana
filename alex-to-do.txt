@@ -1,4 +1,5 @@
-This is Alex's current mental stack
+$Author$
+This is Alex's current mental stack  
 
 
 Todo:
@@ -10,7 +11,7 @@ Todo:
 - on installer check support for HTML5 of browser
 - remove last selection when render
 
-Todo:
+Done:
 + (done, review and testing needed) license back
 + add a readme inside zip
 + protect installer too (only steps after step2)
