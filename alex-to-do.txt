@@ -1,5 +1,4 @@
-$Author$
-This is Alex's current mental stack  
+This is Alex's current mental stack
 
 
 Todo:
@@ -11,7 +10,7 @@ Todo:
 - on installer check support for HTML5 of browser
 - remove last selection when render
 
-Done:
+Todo:
 + (done, review and testing needed) license back
 + add a readme inside zip
 + protect installer too (only steps after step2)
@@ -37,4 +36,5 @@ SVG background of canvas
 	Security error
 	[Break On This Error] 	
 
+	var dataURL = canvas.toDataURL();
 	var dataURL = canvas.toDataURL();
